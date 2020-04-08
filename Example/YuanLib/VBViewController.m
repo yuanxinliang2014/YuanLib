@@ -7,7 +7,8 @@
 //
 
 #import "VBViewController.h"
-
+#import <YuanPublicOne.h>
+#import <YuanPublicTwo.h>
 @interface VBViewController ()
 
 @end
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [YuanPublicOne showPubOne];
+    [YuanPublicTwo showPubTwo];
 }
 
 - (void)didReceiveMemoryWarning

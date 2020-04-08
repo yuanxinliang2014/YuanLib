@@ -1,0 +1,16 @@
+PODS:
+  - YuanLib (0.1.0)
+
+DEPENDENCIES:
+  - YuanLib (from `../`)
+
+EXTERNAL SOURCES:
+  YuanLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YuanLib: e6d8f8a3260323330fba6fd84a7e813bd6d46087
+
+PODFILE CHECKSUM: dfb6be43d7a97f37e897a91d98b536b09b070d02
+
+COCOAPODS: 1.9.1
