@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YuanLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'YuanLib is a static library.'
   s.homepage         = 'https://github.com/yuanxinliang2014/YuanLib'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
