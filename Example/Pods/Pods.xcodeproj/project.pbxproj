@@ -6,22 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7922ADA5EFBE2E6379EBB9BF8E7A9BD1 /* YuanLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5B4177823E8F0C2292D8DBC853E86098 /* Build configuration list for PBXAggregateTarget "YuanLib" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = YuanLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		010210ABE28F8F72A735B8700E5428AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		21A80F4044650AB67B5EE6E2C3AF4002 /* Pods-YuanLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC047E96A9EBC48C2139B9FAB24B5BBD /* Pods-YuanLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41C218681E5F7F066EE467D2E9159393 /* Pods-YuanLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40B704F1DB3D0CA0BEE0DFBF8DA000 /* Pods-YuanLib_Tests-dummy.m */; };
-		4B29DB82789B159DB0F903E03C271D66 /* YuanLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83D07712EE60A30AD739AEC34B488A /* YuanLib-dummy.m */; };
-		58EE69A2DB8BDF1961B636FA46FDFDAA /* YuanPublicOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 78378467BF311A41076398AF6334F2CF /* YuanPublicOne.m */; };
-		59E4148DAD70181FA016ADD0E0534EB4 /* YuanPublicTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3DD165B043616E8F994E74CFBFF6B8 /* YuanPublicTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		690FDE0E344367CC93C2C1314B26956C /* YuanPublicTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = E554414DA67C58C78219EB9B4140D3A7 /* YuanPublicTwo.m */; };
-		761898863085819876749947A9D93FB8 /* YuanLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EB1A0F100DF29BF8161CCDE6C8E503 /* YuanLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		789CF65C49252C0C0C9AB1290B90178A /* YuanPrivateOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A50A3BDE4C9B63CBECFE9F229BCB8638 /* YuanPrivateOne.m */; };
+		21A80F4044650AB67B5EE6E2C3AF4002 /* Pods-YuanLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAF4B515605E02BF5C6F1BCF5B0D5A6 /* Pods-YuanLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41C218681E5F7F066EE467D2E9159393 /* Pods-YuanLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9436E88AF2903E39CCA87C85A2BA33D /* Pods-YuanLib_Tests-dummy.m */; };
 		7B9AE02C94FFDEA3268BFBCAB32951E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B6A4D4BB7059DECA3F880E831F871BE2 /* Pods-YuanLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E202AB4E03C721DABE94DEF645D3A /* Pods-YuanLib_Example-dummy.m */; };
-		BCE93E017241E71F1756B403F5E5EEC8 /* Pods-YuanLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9666A6C23C35B604C8688A1CD712C8 /* Pods-YuanLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C313738B7BFD971BB3457448B8563651 /* YuanPrivateOne.h in Headers */ = {isa = PBXBuildFile; fileRef = FF112D0E7EF15191A90FB273A7C1E091 /* YuanPrivateOne.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6A4D4BB7059DECA3F880E831F871BE2 /* Pods-YuanLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA188DE2796A4BE40CF3C09E5320FF18 /* Pods-YuanLib_Example-dummy.m */; };
+		BCE93E017241E71F1756B403F5E5EEC8 /* Pods-YuanLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5DD0413F6C766DA819156AAF3E1998 /* Pods-YuanLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F39032EBE2F3912ED8AABCC5C0C0D1A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FB1B753C253AE7594AEABCF35C1BCD23 /* YuanPublicOne.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB2A030121B714F67C0DD1DB23C7585 /* YuanPublicOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,55 +45,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E249F7FB7E775473A9B81D0C4D5EE97 /* Pods-YuanLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Example-Info.plist"; sourceTree = "<group>"; };
-		104B6F471AC7E824FB0246B29F561ECF /* Pods-YuanLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuanLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10E31FD327DDBCC98DB02111DA9D3173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		199D2921934547F7548A96DAD47E40B5 /* Pods-YuanLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuanLib_Tests.modulemap"; sourceTree = "<group>"; };
-		1BF04F9BE9B3CF45086B71E7CD4F3951 /* YuanLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YuanLib-Info.plist"; sourceTree = "<group>"; };
-		2CAB5D128FEEF42D002948AF9B2CCAFA /* Pods-YuanLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0BE43B1BE21BC69D12A9BE02D17586A5 /* YuanLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YuanLib.framework; path = "YuanLib-0.1.0/ios/YuanLib.framework"; sourceTree = "<group>"; };
+		292B8D2C1145EFF9A918CCF84B0EE53E /* Pods-YuanLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		30706E046BEBF36C3ED1A04727F7BEAA /* YuanLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuanLib.release.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35D72000F38CD4490D597AF382F7831F /* Pods-YuanLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuanLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		377E202AB4E03C721DABE94DEF645D3A /* Pods-YuanLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuanLib_Example-dummy.m"; sourceTree = "<group>"; };
-		3C186CA853FFBE5FE4AD114C918D383D /* YuanLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuanLib.debug.xcconfig; sourceTree = "<group>"; };
-		41EB1A0F100DF29BF8161CCDE6C8E503 /* YuanLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YuanLib-umbrella.h"; sourceTree = "<group>"; };
+		32203E6D895E1263D1886A961502B8D2 /* Pods-YuanLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BAF4B515605E02BF5C6F1BCF5B0D5A6 /* Pods-YuanLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuanLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E04E1E4E89C31EF3E4534B44DDDF195 /* YuanLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YuanLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4484ED8D519F16741C30DCD874BEB740 /* Pods_YuanLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YuanLib_Tests.framework; path = "Pods-YuanLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		523B7BB518647A7B88CC260B736126F4 /* Pods-YuanLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5A3DD165B043616E8F994E74CFBFF6B8 /* YuanPublicTwo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuanPublicTwo.h; sourceTree = "<group>"; };
+		4A5DD0413F6C766DA819156AAF3E1998 /* Pods-YuanLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuanLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		578CF1AD39487670BB2FBC31BF4A2151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6534454120AB33C9A9F8518D02E80A76 /* Pods-YuanLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuanLib_Example.modulemap"; sourceTree = "<group>"; };
+		6BE8F562BB3FD2E542A374006686AAF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7285BF3EE97AD40BCE7C5CF2E985B374 /* Pods_YuanLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YuanLib_Example.framework; path = "Pods-YuanLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78378467BF311A41076398AF6334F2CF /* YuanPublicOne.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YuanPublicOne.m; sourceTree = "<group>"; };
-		7A40B704F1DB3D0CA0BEE0DFBF8DA000 /* Pods-YuanLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuanLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		843D197A509CF45008A4FCD5CE677526 /* Pods-YuanLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A2C2C4F0D54645E02771EAE83738813 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8CBCE575D97C12900BA97893B87B2F6A /* Pods-YuanLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		8F1C98AFB594F5B29941BC7DB63B152F /* Pods-YuanLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuanLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E66BAD99FBF966F81F0B310E0CA83AE /* Pods-YuanLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuanLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A50A3BDE4C9B63CBECFE9F229BCB8638 /* YuanPrivateOne.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YuanPrivateOne.m; sourceTree = "<group>"; };
-		B8DB8E6E4911E36260CB97E638519E98 /* YuanLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YuanLib-prefix.pch"; sourceTree = "<group>"; };
-		BC047E96A9EBC48C2139B9FAB24B5BBD /* Pods-YuanLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuanLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C097BD8FA376E0D7CDF693645812BCCE /* Pods-YuanLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuanLib_Example.modulemap"; sourceTree = "<group>"; };
-		C9DF1B31601FCC3AF419F4CFE26A6F27 /* Pods-YuanLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC83D07712EE60A30AD739AEC34B488A /* YuanLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YuanLib-dummy.m"; sourceTree = "<group>"; };
-		D1F3AEB1BB3E28EB035FE1089B2264E0 /* Pods-YuanLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D252198138201D1A3034205B6452BD8C /* YuanLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YuanLib.framework; path = YuanLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEC33AEB7ECA27FF38D42295A16D1E3A /* YuanLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuanLib.release.xcconfig; sourceTree = "<group>"; };
-		E54B3763D643C22880D29439584ACA8A /* YuanLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YuanLib.modulemap; sourceTree = "<group>"; };
-		E554414DA67C58C78219EB9B4140D3A7 /* YuanPublicTwo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YuanPublicTwo.m; sourceTree = "<group>"; };
-		E931AA7243E860536AC03E92CB46EBD4 /* Pods-YuanLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		EB9666A6C23C35B604C8688A1CD712C8 /* Pods-YuanLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuanLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		EE0BAF99913E8E9EA22A8B7D7CA95E10 /* YuanLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YuanLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F2BDB77C3FBDA57DF1F2A69C837598CF /* Pods-YuanLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FDB2A030121B714F67C0DD1DB23C7585 /* YuanPublicOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuanPublicOne.h; sourceTree = "<group>"; };
-		FF112D0E7EF15191A90FB273A7C1E091 /* YuanPrivateOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuanPrivateOne.h; sourceTree = "<group>"; };
+		B0119ED9BC6E14270A3FC3CEB81632AE /* Pods-YuanLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuanLib_Tests.modulemap"; sourceTree = "<group>"; };
+		B3F36BF0D70BF32C00EC70AEE2C661FA /* Pods-YuanLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Example-Info.plist"; sourceTree = "<group>"; };
+		D82387B6BFD0BB33354044628BFA9D67 /* Pods-YuanLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuanLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9BE8C28E0B4566F50395452D9ACE46D /* Pods-YuanLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DA188DE2796A4BE40CF3C09E5320FF18 /* Pods-YuanLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuanLib_Example-dummy.m"; sourceTree = "<group>"; };
+		E17371288066747A211F4FF08CE03E7D /* Pods-YuanLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E251421A4B6E8EA64F4AD4C9CB622B33 /* Pods-YuanLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuanLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9436E88AF2903E39CCA87C85A2BA33D /* Pods-YuanLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuanLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		F443830BE6BA2541FC7905B9D3B49385 /* Pods-YuanLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuanLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F664A68E33E8F0CFC187EC0FE7CBE6A2 /* YuanLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuanLib.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04493E9D1AC6FB080FFF029933F735B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				010210ABE28F8F72A735B8700E5428AA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		289711A8D18FF5C61B96290B3579D241 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,123 +93,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17AC7FE6DE217DB4AFC4B969622606A6 /* Development Pods */ = {
+		02DCFF9E602DB326DB98ACAA7BF564B8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9AEC754FCC9CDE35024D457326C42A4D /* YuanLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		18CF9B9DF522FC5F4ACBD0CD29215119 /* Pods-YuanLib_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C097BD8FA376E0D7CDF693645812BCCE /* Pods-YuanLib_Example.modulemap */,
-				35D72000F38CD4490D597AF382F7831F /* Pods-YuanLib_Example-acknowledgements.markdown */,
-				D1F3AEB1BB3E28EB035FE1089B2264E0 /* Pods-YuanLib_Example-acknowledgements.plist */,
-				377E202AB4E03C721DABE94DEF645D3A /* Pods-YuanLib_Example-dummy.m */,
-				9E66BAD99FBF966F81F0B310E0CA83AE /* Pods-YuanLib_Example-frameworks.sh */,
-				0E249F7FB7E775473A9B81D0C4D5EE97 /* Pods-YuanLib_Example-Info.plist */,
-				EB9666A6C23C35B604C8688A1CD712C8 /* Pods-YuanLib_Example-umbrella.h */,
-				523B7BB518647A7B88CC260B736126F4 /* Pods-YuanLib_Example.debug.xcconfig */,
-				2CAB5D128FEEF42D002948AF9B2CCAFA /* Pods-YuanLib_Example.release.xcconfig */,
-			);
-			name = "Pods-YuanLib_Example";
-			path = "Target Support Files/Pods-YuanLib_Example";
-			sourceTree = "<group>";
-		};
-		214B923DCBA19698E2BFCF66BC336644 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7285BF3EE97AD40BCE7C5CF2E985B374 /* Pods_YuanLib_Example.framework */,
-				4484ED8D519F16741C30DCD874BEB740 /* Pods_YuanLib_Tests.framework */,
-				D252198138201D1A3034205B6452BD8C /* YuanLib.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		45D8E4FD86CFC0548CFD2B32273559B9 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FF112D0E7EF15191A90FB273A7C1E091 /* YuanPrivateOne.h */,
-				A50A3BDE4C9B63CBECFE9F229BCB8638 /* YuanPrivateOne.m */,
-			);
-			name = Core;
-			path = YuanLib/Classes/Core;
-			sourceTree = "<group>";
-		};
-		48D9E22236BD1638E1D5D3833DD2BAA4 /* Pods-YuanLib_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				199D2921934547F7548A96DAD47E40B5 /* Pods-YuanLib_Tests.modulemap */,
-				104B6F471AC7E824FB0246B29F561ECF /* Pods-YuanLib_Tests-acknowledgements.markdown */,
-				C9DF1B31601FCC3AF419F4CFE26A6F27 /* Pods-YuanLib_Tests-acknowledgements.plist */,
-				7A40B704F1DB3D0CA0BEE0DFBF8DA000 /* Pods-YuanLib_Tests-dummy.m */,
-				E931AA7243E860536AC03E92CB46EBD4 /* Pods-YuanLib_Tests-Info.plist */,
-				BC047E96A9EBC48C2139B9FAB24B5BBD /* Pods-YuanLib_Tests-umbrella.h */,
-				843D197A509CF45008A4FCD5CE677526 /* Pods-YuanLib_Tests.debug.xcconfig */,
-				F2BDB77C3FBDA57DF1F2A69C837598CF /* Pods-YuanLib_Tests.release.xcconfig */,
-			);
-			name = "Pods-YuanLib_Tests";
-			path = "Target Support Files/Pods-YuanLib_Tests";
-			sourceTree = "<group>";
-		};
-		6AB3C6890834F3F135F6BB69A7D22EDB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8A2C2C4F0D54645E02771EAE83738813 /* LICENSE */,
-				10E31FD327DDBCC98DB02111DA9D3173 /* README.md */,
-				EE0BAF99913E8E9EA22A8B7D7CA95E10 /* YuanLib.podspec */,
+				6BE8F562BB3FD2E542A374006686AAF7 /* LICENSE */,
+				578CF1AD39487670BB2FBC31BF4A2151 /* README.md */,
+				3E04E1E4E89C31EF3E4534B44DDDF195 /* YuanLib.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		755F417E6E7DEEFCF79E9883F4980BCA /* Support Files */ = {
+		1FF358B56BBA3244FB2B8CE21DDC6F57 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E54B3763D643C22880D29439584ACA8A /* YuanLib.modulemap */,
-				CC83D07712EE60A30AD739AEC34B488A /* YuanLib-dummy.m */,
-				1BF04F9BE9B3CF45086B71E7CD4F3951 /* YuanLib-Info.plist */,
-				B8DB8E6E4911E36260CB97E638519E98 /* YuanLib-prefix.pch */,
-				41EB1A0F100DF29BF8161CCDE6C8E503 /* YuanLib-umbrella.h */,
-				3C186CA853FFBE5FE4AD114C918D383D /* YuanLib.debug.xcconfig */,
-				DEC33AEB7ECA27FF38D42295A16D1E3A /* YuanLib.release.xcconfig */,
+				F664A68E33E8F0CFC187EC0FE7CBE6A2 /* YuanLib.debug.xcconfig */,
+				30706E046BEBF36C3ED1A04727F7BEAA /* YuanLib.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YuanLib";
 			sourceTree = "<group>";
 		};
-		92416E6B80883B3D5112E90D208FCD7F /* Targets Support Files */ = {
+		8373CB3AB7CB3E599CB84D80905EC4C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18CF9B9DF522FC5F4ACBD0CD29215119 /* Pods-YuanLib_Example */,
-				48D9E22236BD1638E1D5D3833DD2BAA4 /* Pods-YuanLib_Tests */,
+				0BE43B1BE21BC69D12A9BE02D17586A5 /* YuanLib.framework */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9AEC754FCC9CDE35024D457326C42A4D /* YuanLib */ = {
+		8B5B9360D66418DD38186F1724F663DA /* Pods-YuanLib_Example */ = {
 			isa = PBXGroup;
 			children = (
-				45D8E4FD86CFC0548CFD2B32273559B9 /* Core */,
-				6AB3C6890834F3F135F6BB69A7D22EDB /* Pod */,
-				B8BE69D25120FBD7A48F59D55B19311A /* Public */,
-				755F417E6E7DEEFCF79E9883F4980BCA /* Support Files */,
+				6534454120AB33C9A9F8518D02E80A76 /* Pods-YuanLib_Example.modulemap */,
+				8F1C98AFB594F5B29941BC7DB63B152F /* Pods-YuanLib_Example-acknowledgements.markdown */,
+				D82387B6BFD0BB33354044628BFA9D67 /* Pods-YuanLib_Example-acknowledgements.plist */,
+				DA188DE2796A4BE40CF3C09E5320FF18 /* Pods-YuanLib_Example-dummy.m */,
+				B3F36BF0D70BF32C00EC70AEE2C661FA /* Pods-YuanLib_Example-Info.plist */,
+				4A5DD0413F6C766DA819156AAF3E1998 /* Pods-YuanLib_Example-umbrella.h */,
+				D9BE8C28E0B4566F50395452D9ACE46D /* Pods-YuanLib_Example.debug.xcconfig */,
+				F443830BE6BA2541FC7905B9D3B49385 /* Pods-YuanLib_Example.release.xcconfig */,
 			);
-			name = YuanLib;
-			path = ../..;
+			name = "Pods-YuanLib_Example";
+			path = "Target Support Files/Pods-YuanLib_Example";
 			sourceTree = "<group>";
 		};
-		B8BE69D25120FBD7A48F59D55B19311A /* Public */ = {
+		96AE2A3844D5ED3B9A181F9B285CCF88 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDB2A030121B714F67C0DD1DB23C7585 /* YuanPublicOne.h */,
-				78378467BF311A41076398AF6334F2CF /* YuanPublicOne.m */,
-				5A3DD165B043616E8F994E74CFBFF6B8 /* YuanPublicTwo.h */,
-				E554414DA67C58C78219EB9B4140D3A7 /* YuanPublicTwo.m */,
+				DA094D111B36A6D0DD773AE0D355499F /* YuanLib */,
 			);
-			name = Public;
-			path = YuanLib/Classes/Public;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -241,10 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				17AC7FE6DE217DB4AFC4B969622606A6 /* Development Pods */,
+				96AE2A3844D5ED3B9A181F9B285CCF88 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				214B923DCBA19698E2BFCF66BC336644 /* Products */,
-				92416E6B80883B3D5112E90D208FCD7F /* Targets Support Files */,
+				EB0391CC8D5CB6C430D0898F11964638 /* Products */,
+				F383FAC2EB5AB0775D6F07220C4AD530 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,20 +172,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA094D111B36A6D0DD773AE0D355499F /* YuanLib */ = {
+			isa = PBXGroup;
+			children = (
+				8373CB3AB7CB3E599CB84D80905EC4C6 /* Frameworks */,
+				02DCFF9E602DB326DB98ACAA7BF564B8 /* Pod */,
+				1FF358B56BBA3244FB2B8CE21DDC6F57 /* Support Files */,
+			);
+			name = YuanLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB0391CC8D5CB6C430D0898F11964638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7285BF3EE97AD40BCE7C5CF2E985B374 /* Pods_YuanLib_Example.framework */,
+				4484ED8D519F16741C30DCD874BEB740 /* Pods_YuanLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F051D026916E63E2B0B9805BF38573E3 /* Pods-YuanLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0119ED9BC6E14270A3FC3CEB81632AE /* Pods-YuanLib_Tests.modulemap */,
+				E251421A4B6E8EA64F4AD4C9CB622B33 /* Pods-YuanLib_Tests-acknowledgements.markdown */,
+				32203E6D895E1263D1886A961502B8D2 /* Pods-YuanLib_Tests-acknowledgements.plist */,
+				E9436E88AF2903E39CCA87C85A2BA33D /* Pods-YuanLib_Tests-dummy.m */,
+				8CBCE575D97C12900BA97893B87B2F6A /* Pods-YuanLib_Tests-Info.plist */,
+				3BAF4B515605E02BF5C6F1BCF5B0D5A6 /* Pods-YuanLib_Tests-umbrella.h */,
+				E17371288066747A211F4FF08CE03E7D /* Pods-YuanLib_Tests.debug.xcconfig */,
+				292B8D2C1145EFF9A918CCF84B0EE53E /* Pods-YuanLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-YuanLib_Tests";
+			path = "Target Support Files/Pods-YuanLib_Tests";
+			sourceTree = "<group>";
+		};
+		F383FAC2EB5AB0775D6F07220C4AD530 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B9360D66418DD38186F1724F663DA /* Pods-YuanLib_Example */,
+				F051D026916E63E2B0B9805BF38573E3 /* Pods-YuanLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5538B1D6E67856881C0C32147B886744 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				761898863085819876749947A9D93FB8 /* YuanLib-umbrella.h in Headers */,
-				C313738B7BFD971BB3457448B8563651 /* YuanPrivateOne.h in Headers */,
-				FB1B753C253AE7594AEABCF35C1BCD23 /* YuanPublicOne.h in Headers */,
-				59E4148DAD70181FA016ADD0E0534EB4 /* YuanPublicTwo.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79C4499980843CD473395B2B5556942A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,24 +239,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7922ADA5EFBE2E6379EBB9BF8E7A9BD1 /* YuanLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2913260FCB88ECF52D26D18D346DE79E /* Build configuration list for PBXNativeTarget "YuanLib" */;
-			buildPhases = (
-				5538B1D6E67856881C0C32147B886744 /* Headers */,
-				0828844057A1728A7D99517A67DD82AC /* Sources */,
-				04493E9D1AC6FB080FFF029933F735B3 /* Frameworks */,
-				AFCEC9333A3460B5D6CCC857437C4613 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YuanLib;
-			productName = YuanLib;
-			productReference = D252198138201D1A3034205B6452BD8C /* YuanLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8C764484CA696B01CE3522DCB16D6F01 /* Pods-YuanLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D56158865FF763ABF4CD4EBCAB2F3E28 /* Build configuration list for PBXNativeTarget "Pods-YuanLib_Tests" */;
@@ -363,7 +295,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 214B923DCBA19698E2BFCF66BC336644 /* Products */;
+			productRefGroup = EB0391CC8D5CB6C430D0898F11964638 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -389,27 +321,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFCEC9333A3460B5D6CCC857437C4613 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0828844057A1728A7D99517A67DD82AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B29DB82789B159DB0F903E03C271D66 /* YuanLib-dummy.m in Sources */,
-				789CF65C49252C0C0C9AB1290B90178A /* YuanPrivateOne.m in Sources */,
-				58EE69A2DB8BDF1961B636FA46FDFDAA /* YuanPublicOne.m in Sources */,
-				690FDE0E344367CC93C2C1314B26956C /* YuanPublicTwo.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54C0DC1F3D03ECAA654B841D30B2265E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,37 +358,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F443C498F72D1AF4109B0984FBC8601 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C186CA853FFBE5FE4AD114C918D383D /* YuanLib.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YuanLib/YuanLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YuanLib/YuanLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YuanLib/YuanLib.modulemap";
-				PRODUCT_MODULE_NAME = YuanLib;
-				PRODUCT_NAME = YuanLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -537,7 +420,7 @@
 		};
 		5B53454929D0A1C6D12558E8A302AEEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CAB5D128FEEF42D002948AF9B2CCAFA /* Pods-YuanLib_Example.release.xcconfig */;
+			baseConfigurationReference = F443830BE6BA2541FC7905B9D3B49385 /* Pods-YuanLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -635,7 +518,7 @@
 		};
 		86BE497C49CC8652DD4B4AFAE32CE79C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 523B7BB518647A7B88CC260B736126F4 /* Pods-YuanLib_Example.debug.xcconfig */;
+			baseConfigurationReference = D9BE8C28E0B4566F50395452D9ACE46D /* Pods-YuanLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -666,41 +549,36 @@
 			};
 			name = Debug;
 		};
-		CA6ADBE695795910D16AA9AA70F8776A /* Release */ = {
+		9290038AA63BE1D21B9720A901F1AC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC33AEB7ECA27FF38D42295A16D1E3A /* YuanLib.release.xcconfig */;
+			baseConfigurationReference = F664A68E33E8F0CFC187EC0FE7CBE6A2 /* YuanLib.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YuanLib/YuanLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YuanLib/YuanLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YuanLib/YuanLib.modulemap";
-				PRODUCT_MODULE_NAME = YuanLib;
-				PRODUCT_NAME = YuanLib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E78BDFD8952603DF28DFE93188B21FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30706E046BEBF36C3ED1A04727F7BEAA /* YuanLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		DEEF3EF35FB925033D9C3DD62ACCD704 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2BDB77C3FBDA57DF1F2A69C837598CF /* Pods-YuanLib_Tests.release.xcconfig */;
+			baseConfigurationReference = 292B8D2C1145EFF9A918CCF84B0EE53E /* Pods-YuanLib_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -734,7 +612,7 @@
 		};
 		E65E8C26D61686C94BCA866092D0AFBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 843D197A509CF45008A4FCD5CE677526 /* Pods-YuanLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = E17371288066747A211F4FF08CE03E7D /* Pods-YuanLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -777,20 +655,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2913260FCB88ECF52D26D18D346DE79E /* Build configuration list for PBXNativeTarget "YuanLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F443C498F72D1AF4109B0984FBC8601 /* Debug */,
-				CA6ADBE695795910D16AA9AA70F8776A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4177823E8F0C2292D8DBC853E86098 /* Build configuration list for PBXAggregateTarget "YuanLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9290038AA63BE1D21B9720A901F1AC01 /* Debug */,
+				9E78BDFD8952603DF28DFE93188B21FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
